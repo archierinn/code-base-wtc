@@ -1,0 +1,87 @@
+@media screen and (min-width: 600px) {
+  body,
+  html {
+    font-size: 16px;
+  }
+
+  .hero {
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body,
+  html {
+    font-size: 20px;
+  }
+
+  .hero {
+    height: 300px;
+  }
+
+  .header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    position: relative;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  .header__inner {
+    text-align: left;
+  }
+
+  .nav__menu {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .nav__item {
+    justify-content: flex-end;
+    margin-left: 30px;
+  }
+
+  .nav__item > a {
+    color: #ffffff;
+    font-size: 20px;
+  }
+
+  #drawer {
+    background-color: transparent;
+    left: 0;
+    padding: 8px;
+    position: relative;
+    width: 100%;
+  }
+
+  .content {
+    margin: auto;
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    height: 400px;
+    min-width: 1000px;
+  }
+
+  body {
+    color: #424242;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    min-height: 100vh;
+  }
+
+  .content {
+    margin: auto;
+    width: 85%;
+  }
+}
