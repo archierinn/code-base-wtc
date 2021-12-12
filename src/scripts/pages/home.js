@@ -1,14 +1,22 @@
+import "../components/CardsWrap";
+import FromApi from "../data/from-api";
+
 const Home = {
   async render () {
     return `
-      <section class="content">
-        <h2 class="content__label" tabindex="0">Home</h2>
-      </section
+    <div class="main">
+    <card-wrap />
+  </div>
     `
   },
 
   async afterRender () {
+    const response = await FromApi.list()
+    const cardWrap = document.querySelector('card-wrap')
+    cardWrap.list = response
   }
+
+
 }
 
 export default Home

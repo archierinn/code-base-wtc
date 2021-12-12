@@ -85,3 +85,10 @@
     width: 85%;
   }
 }
+
+
+@media (min-width: 40rem) {
+  .cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
