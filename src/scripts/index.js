@@ -28,5 +28,5 @@ document.addEventListener('DOMContentLoaded', () => {
 window.addEventListener('hashchange', app.renderPage())
 
 window.addEventListener('load', () => {
-  serviceWorkerInit()
+  // serviceWorkerInit()
 })

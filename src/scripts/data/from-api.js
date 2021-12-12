@@ -1,10 +1,10 @@
-import API_ENDPOINT from '../globals/api-endpoint'
+import API from '../globals/api'
 
 class FromApi {
   static async list () {
-    const response = await fetch(API_ENDPOINT)
+    const response = await fetch(API.GET_LIST)
     const responseJson = await response.json()
-    return responseJson
+    return responseJson.anime
   }
 
   static async detail (id) {

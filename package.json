@@ -8,7 +8,6 @@
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint ./src",
     "lint-fix": "npm run lint -- --fix"
-    
   },
   "author": "",
   "license": "ISC",
