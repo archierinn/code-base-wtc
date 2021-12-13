@@ -99,6 +99,7 @@ card-detail > article > section > div.genres > span {
   color: #ffffff;
   display: flex;
   margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
   padding: 0.5rem 1rem;
 }
 
