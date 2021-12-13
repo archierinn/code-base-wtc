@@ -201,7 +201,8 @@ main {
  * Content element
  */
 
-.content {
+.content,
+.main {
   align-items: center;
   display: flex;
   flex-direction: column;
