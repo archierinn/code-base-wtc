@@ -9,9 +9,11 @@ class App {
     this._button = button
     this._content = content
     this._drawer = drawer
+
+    this._initialAppShell()
   }
 
-  _initialAppShel () {
+  _initialAppShell () {
     DrawerUtility.init({
       button: this._button,
       body: this._body,
