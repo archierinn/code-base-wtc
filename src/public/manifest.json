@@ -4,8 +4,8 @@
     "description": "AniNext lists the next season of anime",
     "start_url": "/index.html",
     "display": "standalone",
-    "background_color": "#FFFFFF",
-    "theme_color": "#FFFFFF",
+    "background_color": "#537895",
+    "theme_color": "#537895",
     "icons": [
         {
             "src": "/icons/android-chrome-36x36.png",
