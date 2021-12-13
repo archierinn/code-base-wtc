@@ -1,12 +1,11 @@
-import "../components/CardsWrap";
-import FromApi from "../data/from-api";
+import FromApi from '../data/from-api'
 
 const Home = {
   async render () {
     return `
     <div class="main">
-    <card-wrap />
-  </div>
+      <card-wrap />
+    </div>
     `
   },
 
@@ -15,7 +14,6 @@ const Home = {
     const cardWrap = document.querySelector('card-wrap')
     cardWrap.list = response
   }
-
 
 }
 

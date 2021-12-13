@@ -8,9 +8,8 @@ class FromApi {
   }
 
   static async detail (id) {
-    const response = await fetch(API_ENDPOINT)
-    const responseJson = await response.json()
-    return responseJson
+    const response = await fetch(API.GET_DETAIL(id))
+    return response.json()
   }
 }
 

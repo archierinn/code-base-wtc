@@ -1,0 +1,134 @@
+/* 
+ * Card-detail
+ */
+
+card-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  width: 100%;
+}
+
+card-detail > h2.error {
+  color: red;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+card-detail > article {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+card-detail > article > section {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+}
+
+card-detail > article > section > div:first-child {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+card-detail > article > section > h2 {
+  line-height: 1.5;
+  margin-top: 0rem;
+}
+
+card-detail > article > section > h4 {
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+card-detail > article > section > div {
+  display: flex;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+card-detail > article > section > div > figure > img {
+  align-self: center;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+  height: 200px;
+  margin-top: 0rem;
+  object-fit: cover;
+  object-position: center;
+  width: 150px;
+}
+
+card-detail > article > section > div > figure > div {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+card-detail > article > section > div > ul {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+card-detail > article > section > div > ul > li {
+  list-style: none;
+}
+
+card-detail > article > section > div > ul > li > h4 {
+  font-weight: normal;
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+}
+
+card-detail > article > section > div.genres {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0rem;
+  width: 100%;
+}
+
+card-detail > article > section > div.genres > span {
+  align-items: center;
+  border-radius: 24px;
+  background: linear-gradient(#09203f, #537895);
+  color: #ffffff;
+  display: flex;
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+card-detail > article > section > p:last-child {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  text-indent: 1rem;
+  word-wrap: break-word;
+}
+
+@media screen and (min-width: 992px) {
+  card-detail > article > section > h2 {
+    font-size: 30px;
+  }
+
+  card-detail > article > section {
+    padding: 2rem;
+  }
+
+  card-detail > article > section > div > figure > img {
+    height: 400px;
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  card-detail > article > section > div > figure > img {
+    height: 600px;
+    width: 450px;
+  }
+}

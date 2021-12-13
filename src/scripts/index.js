@@ -25,8 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
   addEventListenerSkipContent()
 })
 
-window.addEventListener('hashchange', app.renderPage())
+window.addEventListener('hashchange', () => app.renderPage())
 
 window.addEventListener('load', () => {
-  // serviceWorkerInit()
+  serviceWorkerInit()
 })

@@ -1,9 +1,9 @@
 const CONFIG = {
   BASE_URL: 'https://api.jikan.moe/v3/',
-  CACHE_NAME: new Date().toISOString(),
-  DATABASE_NAME: '',
+  CACHE_NAME: 'AniNext-V1',
+  DATABASE_NAME: 'AniNext',
   DATABASE_VERSION: 1,
-  OBJECT_STORE_NAME: ''
+  OBJECT_STORE_NAME: 'anime'
 }
 
 export default CONFIG

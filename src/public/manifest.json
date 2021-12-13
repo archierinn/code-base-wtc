@@ -1,7 +1,7 @@
 {
-    "name": "WTC",
-    "short_name": "WTC",
-    "description": "",
+    "name": "AniNext",
+    "short_name": "AniNext",
+    "description": "AniNext lists the next season of anime",
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#FFFFFF",

@@ -1,0 +1,32 @@
+/* 
+ * add to watchlist button
+ */
+
+add-watchlist-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 44px;
+  min-width: 44px;
+}
+
+add-watchlist-button > button {
+  background: linear-gradient(#09203f, #537895);
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  min-height: 44px;
+  min-width: 44px;
+  padding: 0rem 0.5rem;
+}
+
+add-watchlist-button > button:active {
+  color: inherit;
+}
+
+@media screen and (min-width: 992px) {
+  add-watchlist-button > button {
+    font-size: 20px;
+    padding: 1rem;
+  }
+}

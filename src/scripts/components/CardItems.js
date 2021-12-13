@@ -1,31 +1,30 @@
-import Card from './Card';
+import Card from './Card'
+import '../../styles/cardItems.css'
 
 class CardItems extends Card {
-  constructor(){
+  constructor () {
     super()
     this._list = []
   }
 
-  get list() {
+  get list () {
     return this._list
   }
 
-  set list(value){
+  set list (value) {
     this._list = value
     this.render()
-    console.log(value);
   }
 
-
-  render(){
-    const { mal_id, image_url, members, title} = this._list;
+  render () {
+    const { malId, imageUrl, members, title } = this._list
 
     this.innerHTML =
       `
       <li class="cards_item">
-      <a class="card-a" href='#/detail/${mal_id}'>
+      <a class="card-a" href='#/detail/${malId}'>
       <div class="card">
-        <div class="card_image"><img src=${image_url}></div>
+        <div class="card_image"><img src=${imageUrl}></div>
         <div class="card_content">
           <h2 class="card_title">${title}</h2>
           <p class="card_text">Member ${members}</p>
@@ -38,4 +37,4 @@ class CardItems extends Card {
   }
 }
 
-customElements.define("cards-item", CardItems);
+customElements.define('cards-item', CardItems)
